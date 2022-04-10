@@ -243,11 +243,10 @@ $(function () {
 		$.when($(".prikzivotinja, .footer").fadeOut()).then(function () {
 			scrollFunction();
 			$(".ispisobjekata").empty(); //IZBRISE POSTOJECE KARTICE
-
 			temp = -1; //ZA ZNAT KOLIKO KARTICA POSTOJI
 			priklistazivotinja = []; //TRENUTNE KARTICE
 			var input = $(".form-control").val(); //VALUE IZ INPUTA
-			input.toLowerCase(); //VALUE U LOWERCASE
+			input = input.toLowerCase(); //VALUE U LOWERCASE
 			var odabranispol = ""; //CHECKBOXED SPOLOVI
 			var odabranavel = ""; //CHECKBOXED VELICINE
 			var odabrana_akt = ""; //CHECKBOXED AKTIVNOST
