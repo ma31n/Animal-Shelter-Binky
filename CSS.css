@@ -51,6 +51,11 @@
 		padding-top: 15vw !important;
 	}
 	
+	.prikzivotinja,
+	.dodavanjeobjekata {
+	  padding-top: 25vw !important;
+	}
+	
 	
 }
 
@@ -175,7 +180,7 @@ body.active .page .content {
 
 .prikzivotinja,
 .dodavanjeobjekata {
-  padding-top: 25vw;
+  padding-top: 5%;
 }
 
 .card {
